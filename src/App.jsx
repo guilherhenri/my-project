@@ -6,7 +6,7 @@ function App() {
     <div className="grid-rows-app grid min-h-screen antialiased lg:grid-cols-app lg:grid-rows-1">
       <div className="fixed left-0 right-0 top-0 z-20 flex flex-col bg-black p-4 data-[state=open]:bottom-0
         data-[state=open]:h-screen lg:right-auto lg:w-[250px] lg:data-[state=closed]:bottom-0 lg:data-[state=closed]:h-screen">
-          Sr Banco
+          App
       </div>
 
       <main className="row-start-2 px-8 py-4 lg:col-start-2 lg:row-start-1">
@@ -18,11 +18,11 @@ function App() {
                 transition-colors hover:bg-black-300 data-[current=true]:bg-white
                 data-[current=true]:text-yellow-500"
             >
-              Vídeo Aulas
+              Cursos
             </a>
         </div>
 
-        <div className="">
+        <div className="flex flex-col w-full">
           <div className="space-y-2.5 rounded-lg bg-black px-6 py-4">
             <div className="mb-4 flex items-center justify-between">
               <h2 className="text-xl">Cursos</h2>
